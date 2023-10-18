@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ikwg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0100-tenant/ci1t-830-0100-app/devfile-sample-ikwg@sha256:d59e543c5de81b3ade5a29b5b1292eb9b6d29350fae57fe0e708efd07bee4a0e
         name: my-nodejs
         ports:
         - containerPort: 3001
